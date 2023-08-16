@@ -68,7 +68,7 @@ footer{
   bottom: 0;
   width: 100%;
   position: absolute;
-  height: 4rem;
+  height: 10rem;
   background-color: black;
   color: white;
 
@@ -84,5 +84,15 @@ footer{
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid whites;
+  border-top: 3px solid white;
+}
+
+.footer-list{
+  background-color: wheat;
+
+  list-style: none;
+}
+.footer-item{
+  display: inline-block;
+  margin-right: 10px;
 }
