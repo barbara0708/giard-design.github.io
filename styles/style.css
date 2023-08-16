@@ -1,4 +1,9 @@
+:root{
+  --dark-green:#2e5a35;
+}
+
 body{
+  height: 100vh;
   position: relative;
 }
 nav{
@@ -64,5 +69,20 @@ footer{
   width: 100%;
   position: absolute;
   height: 4rem;
-  
+  background-color: black;
+  color: white;
+
+}
+.btn-dark-green{
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: var(--dark-green);
+  border: none;
+  color: white;
+  padding: 4%;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid whites;
 }
