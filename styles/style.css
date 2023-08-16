@@ -68,8 +68,8 @@ footer{
   bottom: 0;
   width: 100%;
   position: absolute;
-  height: 10rem;
-  background-color: black;
+  height: 20rem;
+  background-color: #111111;
   color: white;
 
 }
@@ -84,15 +84,27 @@ footer{
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid white;
+  border: 0.8px solid white;
+  width: 98%;
 }
 
-.footer-list{
-  background-color: wheat;
-
+.footer-list .left{
   list-style: none;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+.footer-list .right{
+  list-style: none;
+  margin-right: 0%;
+  padding-right: 0%;
 }
 .footer-item{
   display: inline-block;
   margin-right: 10px;
+
+}
+.row{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
