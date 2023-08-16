@@ -35,12 +35,12 @@ main{
   cursor: pointer;
 }
 
-.search:focus:hover {
+.search:focus:hover .search{
   border-bottom: 1px solid #BBB;
   color: black;
 }
 
-.search:focus {
+.search:focus:hover .search{
   width: 700px;
   border-bottom: 1px solid #BBB;
   cursor: text;
