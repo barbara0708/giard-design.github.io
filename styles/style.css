@@ -1,5 +1,6 @@
 :root{
   --dark-green:#2e5a35;
+  --beige:#d8c2ae;
 }
 
 body{
@@ -79,6 +80,18 @@ footer{
   background-color: var(--dark-green);
   border: none;
   color: white;
+  padding: 2%;
+}
+#sliderLeft{
+  background-color: var(--beige);
+}
+.btn-beige{
+  border-radius: 35px;
+  font-size: 1rem;
+  border:1px solid var(--dark-green);
+  
+  background-color: var(--beige);
+  color: var(--dark-green);
   padding: 2%;
 }
 hr.solid {
