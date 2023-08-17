@@ -76,20 +76,23 @@ footer{
 
 }
 .btn-dark-green{
-  border-radius: 30px;
-  font-size: 1rem;
+  display: flex;
+  padding: 0.75rem 1.5rem 0.875rem 1.5rem;
+  align-items: center;
+  gap: 0.625rem;
   background-color: var(--dark-green);
   border: none;
   color: white;
-  padding: 2%;
+  font-size: 1rem;
+  border-radius: 12.5rem;
 }
 #sliderLeft{
   background-color: var(--beige);
-  width: 50%;
-  padding: 10%;
+  width: calc(100vw - 43rem);
+  padding: 10% 11% 10% 5%;
 }
 #img-responsive{
-  width: 50%;
+  width: 43rem;
   right: 0;
   position: absolute;
 }
@@ -99,6 +102,7 @@ footer{
 }
 .h1-intro{
   color: black;
+  width: 30rem;
 font-family: Montserrat;
 font-size: 3.75rem;
 font-style: normal;
@@ -152,6 +156,7 @@ hr.solid {
 p{
   font-family: Inter;
   font-size: 1rem;
+  align-content: stretch;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
