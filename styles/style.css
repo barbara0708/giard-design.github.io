@@ -68,21 +68,19 @@ footer{
   bottom: 0;
   width: 100%;
   position: absolute;
-  height: 20rem;
+  height: 25rem;
   background-color: #111111;
   color: white;
 
 }
 .btn-dark-green{
-  border-radius: 25px;
+  border-radius: 30px;
   font-size: 1rem;
   background-color: var(--dark-green);
   border: none;
   color: white;
-  padding: 4%;
+  padding: 2%;
 }
-
-/* Solid border */
 hr.solid {
   border: 0.8px solid white;
   width: 98%;
@@ -101,7 +99,7 @@ hr.solid {
 }
 .footer-item{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 1.5rem;
 
 }
 .row{
