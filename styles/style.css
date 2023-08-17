@@ -164,8 +164,12 @@ p{
 
 .navigation{
   background-color: var(--beige);
-  position: absolute;
-  bottom: 0;
-  right:  10rem;
   z-index: 1000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  padding: 1.5rem 2rem;
+  align-items: flex-start;
+  gap: 2rem;
 }
