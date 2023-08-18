@@ -190,7 +190,10 @@ padding: 3rem 2.5rem;
 flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
-border-radius: 3rem;
+border-radius: 1.75rem;
+}
+.card-body{
+  border-radius: 1.75rem;
 }
 .img-icon{
   width: 2.5rem;
@@ -207,10 +210,11 @@ margin-top: 2rem;
 letter-spacing: -0.0875rem;
 }
 
-.btn-link{
+.btn-box{
   color:var(--dark-green);
   border: none;
   background-color: white;
+  
   border-bottom: 1px solid var(--dark-green);
   padding: 1%
 } 
