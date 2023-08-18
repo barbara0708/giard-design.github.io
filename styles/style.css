@@ -182,18 +182,22 @@ p{
   width: 44rem;
   margin-top: 2rem;
 }
-.card{
+
+
+.card-elem{
+  
+  position: relative;
+  background-color: white;
   display: flex;
-width: 23.625rem;
-height: 23.125rem;
-padding: 3rem 2.5rem;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
-border-radius: 1.75rem;
-}
-.card-body{
+  width: 22.7rem;
+  height: 22.2rem;
+  padding: 3rem 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   border-radius: 1.75rem;
+  cursor: pointer;
+   transition: all 0.3s ease;
 }
 .img-icon{
   width: 2.5rem;
@@ -202,19 +206,36 @@ flex-shrink: 0;
 }
 .card-title{
   font-family: Montserrat;
-font-size: 1.75rem;
-font-style: normal;
-font-weight: 500;
-line-height: 115%; 
-margin-top: 2rem;
-letter-spacing: -0.0875rem;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%; 
+  margin-top: 2rem;
+  letter-spacing: -0.0875rem;
 }
-
+.card-text{
+  margin-top: 2rem; 
+  transition: 0.5s;
+}
 .btn-box{
   color:var(--dark-green);
   border: none;
   background-color: white;
-  
+  transform: translateY(2rem);
+  transition: 0.5s;
+  opacity: 0;
   border-bottom: 1px solid var(--dark-green);
-  padding: 1%
+  padding: 1%;
+  margin-top: 1rem;
 } 
+.card-elem:hover .btn-box{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.card-elem:hover .card-text{
+  margin-top: 0rem;
+}
+.card-elem:hover{
+  width: 24.7rem;
+  height:24.2rem;
+}
