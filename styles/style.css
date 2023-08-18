@@ -189,7 +189,7 @@ p{
   position: relative;
   background-color: white;
   display: flex;
-  width: 22.7rem;
+  width: 21.7rem;
   height: 22.2rem;
   padding: 3rem 2.5rem;
   flex-direction: column;
@@ -230,12 +230,11 @@ flex-shrink: 0;
 } 
 .card-elem:hover .btn-box{
   opacity: 1;
-  transform: translateY(0px);
+  transform: translateY(-0.5rem);
 }
 .card-elem:hover .card-text{
   margin-top: 0rem;
 }
 .card-elem:hover{
-  width: 24.7rem;
-  height:24.2rem;
+  transform: scale(1.10, 1.10);
 }
