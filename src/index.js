@@ -41,8 +41,10 @@ var macyInstance = Macy({
     if(Array.from(overlay.classList).includes('new-pictures')){
       overlay.className="overlay";
       btnExpand.innerHTML="Rozńwi";
+      console.log("First if")
     }else{
-      overlay.classList.add(" new-picture");
+      overlay.classList.add("new-picture");
       overlay.innerHTML="Zwiń";
+      console.log("Else section here")
     }  
   }
