@@ -2,31 +2,31 @@ $('.carousel').carousel()
 var macyInstance = Macy({
   container:"#macy-container",
   trueOrder:false,
-  columns:5,
+  columns:3,
   margin:{
-    x:12,
-    y:15
+    x:39,
+    y:38
   },
   waitForImages:false,
   useOwnImageLoader:false,
   mobileFirst:false,
   breakAt:{
     1200:{
-      columns:5,
+      columns:3,
       margin:{
-        x:23,
-        y:4
+        x:30,
+        y:20
       }
     },
     940:{
-      columns:4,
+      columns:3,
       margin:{
-        y:23
+        y:15
       }
     },
     520:{
-      columns:3,
-      margin:3
+      columns:2,
+      margin:12
     },
     400:{
       columns:2

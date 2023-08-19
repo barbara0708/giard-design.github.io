@@ -280,12 +280,20 @@ letter-spacing: -0.09rem;
 }
 .demo{
   margin-bottom: 24px;
-  border-radius: 4px;
   overflow: hidden;
-  border: 1px solid #eee;
 }
 .demo-image{
   width: 100%;
   display: block;
   height: auto;
+}
+.images{
+  background-color: var(--beige);
+  padding-top: 7.5rem;
+}
+.images-content{
+  margin: 0 10rem 6rem 10rem;
+}
+span{
+  color: var(--dark-green);
 }
