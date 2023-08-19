@@ -33,3 +33,16 @@ var macyInstance = Macy({
     }
   }
   });
+
+  let btnExpand=document.getElementById('btnExpand');
+  let overlay=document.getElementById('overlay-fig');
+
+  btnExpand.onclick=function(){
+    if(Array.from(overlay.classList).includes('new-pictures')){
+      overlay.className="overlay";
+      btnExpand.innerHTML="Rozńwi";
+    }else{
+      overlay.classList.add(" new-picture");
+      overlay.innerHTML="Zwiń";
+    }  
+  }
