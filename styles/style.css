@@ -307,11 +307,13 @@ span{
   background: linear-gradient(360deg, #DCC1AB 0%, rgba(214, 183, 158, 0.00) 100%);
 }
 .btn-figcaption{
+  margin-top: 10rem;
   border-radius: 12.5rem;
   border: 1px solid #111;
   display: inline-flex;
   padding: 0.75rem 1.375rem 0.875rem 1.375rem;
   align-items: center;
   z-index: 50;
+  background: transparent;
   position: absolute;
 }
