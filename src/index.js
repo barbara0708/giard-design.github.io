@@ -35,22 +35,27 @@ var macyInstance = Macy({
   });
 
   let btnExpand=document.getElementById('btnExpand');
-  let cont=document.getElementById('container');
+  let cont=document.getElementsByClassName('demo1');
+  let overlay=document.getElementById("overlay")
   
 
 
   btnExpand.onclick=function(){
     Array.from(cont).forEach((el) => {
-      
-      console.log(el.tagName);
-    });/*
-    if(cont.className=='hidden-img'){
-      cont.className="";
-      btnExpand.innerHTML="Zwiń";
-      console.log("First if")
-    }else{
-      cont.classList.add("hidden-img")
-      btnExpand.innerHTML="Rozwiń";
-      console.log("Else section here")
-    }  */
+      if(String.toString(el.className).includes('show-img')){
+        el.className="demo1";
+        btnExpand.innerHTML="Rozwiń";
+        macyInstance.recalculate();
+        console.log("First if")
+      }else{
+        overlay.classList.add("new-pictures")
+        btnExpand.classList.add("btn-new")
+        el.classList.add("show-img")
+        btnExpand.innerHTML="Zwiń";
+        macyInstance.recalculate();
+        console.log("Else section here")
+      }  
+        
+    });
+    
   }
