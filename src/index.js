@@ -44,16 +44,12 @@ var macyInstance = Macy({
     Array.from(cont).forEach((el) => {
       if(String.toString(el.className).includes('show-img')){
         el.className="demo1";
-        btnExpand.innerHTML="Rozwiń";
         macyInstance.recalculate();
-        console.log("First if")
       }else{
         overlay.classList.add("new-pictures")
         btnExpand.classList.add("btn-new")
         el.classList.add("show-img")
-        btnExpand.innerHTML="Zwiń";
         macyInstance.recalculate();
-        console.log("Else section here")
       }  
         
     });

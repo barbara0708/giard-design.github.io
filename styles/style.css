@@ -331,7 +331,7 @@ span{
   position: absolute;
 }
 .btn-new{
-  margin-top:80rem;
+  display: none;
 }
 .contact{
   padding-top: 3.75rem;
