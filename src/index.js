@@ -35,16 +35,22 @@ var macyInstance = Macy({
   });
 
   let btnExpand=document.getElementById('btnExpand');
-  let overlay=document.getElementById('overlay-fig');
+  let cont=document.getElementById('container');
+  
+
 
   btnExpand.onclick=function(){
-    if(Array.from(overlay.classList).includes('new-pictures')){
-      overlay.className="overlay";
-      btnExpand.innerHTML="Rozńwi";
+    Array.from(cont).forEach((el) => {
+      
+      console.log(el.tagName);
+    });/*
+    if(cont.className=='hidden-img'){
+      cont.className="";
+      btnExpand.innerHTML="Zwiń";
       console.log("First if")
     }else{
-      overlay.classList.add("new-picture");
-      overlay.innerHTML="Zwiń";
+      cont.classList.add("hidden-img")
+      btnExpand.innerHTML="Rozwiń";
       console.log("Else section here")
-    }  
+    }  */
   }
