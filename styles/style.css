@@ -312,7 +312,7 @@ span{
   background: linear-gradient(360deg, #DCC1AB 0%, rgba(214, 183, 158, 0.00) 100%);
 }
 .new-pictures {
-  height: 60rem;
+  margin-top: 50rem;
   transition: 0.5s;
   /* -webkit-transition: max-height 0.7s;
   -moz-transition: max-height 0.7s;
@@ -350,4 +350,7 @@ span{
   gap: 0.625rem;
   border-radius: 12.5rem;
   background: var(--grey);
+}
+#macy-container{
+  height: 400px;
 }

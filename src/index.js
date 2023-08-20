@@ -7,7 +7,7 @@ var macyInstance = Macy({
     x:39,
     y:38
   },
-  waitForImages:false,
+  waitForImages:true,
   useOwnImageLoader:false,
   mobileFirst:false,
   breakAt:{
