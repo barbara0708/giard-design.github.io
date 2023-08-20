@@ -5,10 +5,31 @@
   --grey:#F5F0EC;
 }
 
-body{
+
+@media (max-device-width: 480px){
+  #img-intro{
+    display: none;
+  }
+  #sliderLeft{
+    width: 100%;
+    position: absolute;
+  }
+  .h1-intro{
+    font-size: 3rem;
+    width: 90%;
+  }
+}
+
+@media (min-device-width: 480px) and (max-device-width:1024px){}
+body, html {
   height: 100vh;
-  padding: 0;
+  margin: 0;
   position: relative;
+  overflow-x:hidden;
+}
+
+* {
+box-sizing: border-box;
 }
 nav{
     background-color: white;
@@ -91,20 +112,21 @@ footer{
   background-color: var(--beige);
   width: calc(100vw - 43rem);
   padding: 10% 11% 10% 5%;
+  height: 90vh;
 }
 #img-intro{
   width: 43rem;
   right: 0;
-  
+height: 90vh;  
 }
 #img-section{
   width: 43rem;
   left: 0;
-  height: 45rem;
   position: absolute;
+  height: 100%;
 }
 .slider{
-  height: 46rem;
+  max-height: 100vh;
   margin-bottom: 0;
 }
 .h1-intro{
@@ -155,7 +177,8 @@ hr.solid {
   background-color: var(--wheat-color);
   display: flex;
   margin-top: 0;
-  padding: 7.5rem 0rem 10rem 0rem;
+  max-height: 100vh;
+  padding: 5.5rem 0rem 8rem 0rem;
   flex-direction: column;
   align-items: center;
 }
@@ -181,11 +204,10 @@ p{
   gap: 2rem;
 }
 .text-2{
-  margin-top: 7.5rem;
-  width: 65rem;
+  width: 70%;
 }
 #p2{
-  width: 44rem;
+  width: 60%;
   margin-top: 2rem;
 }
 
@@ -240,7 +262,7 @@ p{
   transform: scale(1.10, 1.10);
 }
 .block{
-  height: 45rem;
+  height: 100vh;
   
 }
 #sectionRight{
