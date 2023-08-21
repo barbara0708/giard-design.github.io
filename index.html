@@ -14,8 +14,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <a class="navbar-brand ml-4" href="#"><img class="logo" loading="lazy" src="./images/logo.png"/></a>
             </div>
-
-            <div class="d-flex align-items-center">
+            <div id="items" class="d-flex align-items-center">
               <ul class="navbar-nav mt-2 mt-lg-0 d-flex align-items-center">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,7 +69,7 @@
                     <button type="submit" class="btn-dark-green float-left">Skontaktuj się z nami</button>                    
                   </div>
                   <div class="col-7">
-                    <button type="submit" class="btn-beige float-left">Zobacz nasze realizacje <img style="margin-left: 0.5rem;" src="images/arrow.png" /></button>
+                    <button type="submit" class="btn-beige float-left">Zobacz nasze realizacje <img class="ml-2" src="images/arrow.png" /></button>
                   </div>
                 </div>
               </div>
@@ -95,12 +94,12 @@
             Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym etapie posłużymy radą i wieloletnim doświadczeniem. 
           </p>
         </div>
-        <div class="container">
+        <div class="container" id="tools">
           <div class="row">
-            <div class="col-4 ">
+            <div class="col-4">
               <div class="card-elem">
                 <div class="card-body">
-                  <img src="images/pencil.png" style="width: 2.5rem;height: 2.5rem;"/>
+                  <img src="images/pencil.png"  style="width: 2.5rem;height: 2.5rem;"/>
                   <div class="content">
                   <h3 class="card-title">Projekty</h3>
                   <p class="card-text">Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym wykorzystaniem istniejącej przestrzeni.</p>
@@ -170,7 +169,6 @@
         </div>
 
         <figure class="overlay" id="overlay" >
-          <!--Try to add new-pictures to the "figcaption instead of "overlay"-->
           <figcaption class="z-50 text-center" >
             <button class="btn-figcaption" id="btnExpand">Rozwiń &nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
               <path d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z" fill="#111111"/>
@@ -231,7 +229,7 @@
           <div class="col-6">
             <img src="images/logo-dark.png" height="50" width="150"/>
           </div>
-          <div class="col-6" style="display: inline-block;" >
+          <div class="col-6" style="display: inline-block;">
             <p class="float-left mt-2 mr-4">Daj znać, co możemy dla ciebie zrobić!</p>
           <button type="submit" class="btn-dark-green float-left">Skontaktuj się z nami</button>
         </div>

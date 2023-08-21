@@ -6,28 +6,6 @@
 }
 
 
-@media (max-device-width: 480px){
-  #img-intro{
-    display: none;
-  }
-  #sliderLeft{
-    width: 100%;
-    position: absolute;
-  }
-  .h1-intro{
-    font-size: 3rem;
-    width: 90%;
-  }
-}
-
-@media (min-device-width: 480px) and (max-device-width:1024px){}
-body, html {
-  height: 100vh;
-  margin: 0;
-  position: relative;
-  overflow-x:hidden;
-}
-
 * {
 box-sizing: border-box;
 }
@@ -101,7 +79,6 @@ footer{
   display: flex;
   padding: 0.75rem 1.5rem 0.875rem 1.5rem;
   align-items: center;
-  gap: 0.625rem;
   background-color: var(--dark-green);
   border: none;
   color: white;
@@ -132,7 +109,6 @@ height: 90vh;
 .h1-intro{
   color: black;
   width: 30rem;
-font-family: Montserrat;
 font-size: 3.75rem;
 font-style: normal;
 font-weight: 500;
@@ -177,7 +153,7 @@ hr.solid {
   background-color: var(--wheat-color);
   display: flex;
   margin-top: 0;
-  max-height: 100vh;
+  height: 100vh;
   padding: 5.5rem 0rem 8rem 0rem;
   flex-direction: column;
   align-items: center;
@@ -294,7 +270,6 @@ p{
   border: 1px solid var(--grey);
 }
 .h1-section{
-font-family: Montserrat;
 font-size: 4rem;
 font-weight: 500;
 line-height: 115%; 
@@ -382,4 +357,104 @@ span{
   margin-bottom: 24px;
   overflow: hidden;
   display: block;
+}
+
+@media all and (max-device-width: 480px){
+  #img-intro{
+    display: none;
+  }
+  
+  #sliderLeft{
+    width: fit-content;
+    padding:  10%;
+  }
+  
+  #items{
+    opacity: 0;
+    display: none;
+  }
+  .h1-intro{
+    font-size: 3rem;
+    width: 90%;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  #img-section{
+    display: none;
+  }
+  .card-title{
+    font-size: 1rem;
+  }
+  .text-2{
+    width: 100%;
+    padding-left: 10%;
+  }
+  .card-elem{
+    margin: auto;
+  }
+  .btn-dark-green{
+    width: 150%;
+    padding: 0.7rem;
+  }
+  .btn-beige{
+    display: none;
+  }
+  .boxes{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .tools{
+    width: 90%;
+    padding: 10%;
+  }
+  .col-4 {
+    width: 100vw;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 10%;
+
+  }
+  #sectionRight{
+    width: 100%;
+    padding-left:0;
+  }
+  .content-right{
+    width: 90%;
+    padding-left: 10%;
+  }
+  .h1-section{
+    font-size: 3rem;
+  }
+  .demo1{
+    display: flex;
+  }
+  .card-elem:hover{
+    transform: scale(1.05, 1.05);
+  }
+  .overlay::before{
+    display: none;
+  }
+  .images-content{
+    margin: 10%;
+  }
+  .btn-figcaption{
+    display: none;
+  }
+  footer{
+    width: 100%;
+  }
+  .newsletter{
+    width: 100%;
+  }
+}
+
+@media all and (min-device-width: 480px) and (max-device-width:1024px){}
+body, html {
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow-x:hidden;
 }
