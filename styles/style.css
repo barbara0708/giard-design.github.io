@@ -367,8 +367,11 @@ span{
   #sliderLeft{
     width: fit-content;
     padding:  10%;
+    
   }
-  
+  .navigation{
+    display: none;
+  }
   #items{
     opacity: 0;
     display: none;
@@ -395,8 +398,16 @@ span{
     margin: auto;
   }
   .btn-dark-green{
-    width: 150%;
+    width: 180%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     padding: 0.7rem;
+    position: absolute;
+  }
+  .btn-green-w-border{
+    margin-top: 1rem;
   }
   .btn-beige{
     display: none;
@@ -446,9 +457,18 @@ span{
   footer{
     width: 100%;
   }
+  .h1-down{
+    font-size: 3rem;
+  }
   .newsletter{
     width: 100%;
+    padding: 5;
+    display: flex;
+    float: left;
+    margin-left: 10%;
+    flex-direction: column;
   }
+
 }
 
 @media all and (min-device-width: 480px) and (max-device-width:1024px){}
