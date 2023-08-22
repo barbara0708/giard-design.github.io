@@ -388,6 +388,7 @@ i{
 
 
 
+
 @media all and (max-device-width: 480px){
   #img-intro{
     display: none;
@@ -497,7 +498,7 @@ i{
 
 @media all and (min-device-width: 480px) and (max-device-width:1024px){
   #img-intro{
-    display: none;
+    width: 40%;
   }
   
   #sliderLeft{
