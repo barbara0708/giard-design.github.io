@@ -17,7 +17,9 @@ body, html {
   position: relative;
   overflow-x:hidden;
 }
-
+.logo-hidden{
+  display: none;
+}
 .txt-right{
   padding-left: 5rem;
 }
@@ -406,6 +408,10 @@ i{
     opacity: 0;
     display: none;
   }
+  .logo-hidden{
+    display: inline-block;
+    height: 2rem;
+  }
   .h1-intro{
     font-size: 3rem;
     width: 90%;
@@ -491,15 +497,25 @@ i{
     font-size: 3rem;
   }
   .contact{
-    display: nones;
+    display: none;
   }
-
+#header{
+  display: none;
+}
+#h1-k{
+  max-width: 80%
+}
 }
 
-@media all and (min-device-width: 480px) and (max-device-width:1024px){
+@media all and (min-device-width: 480px) and (max-device-width:1200px){
   #img-intro{
     width: 40%;
   }
+  #header{
+    display: none;
+  }
+  
+
   
   #sliderLeft{
     width: fit-content;
@@ -509,10 +525,7 @@ i{
   .navigation{
     display: none;
   }
-  #items{
-    opacity: 0;
-    display: none;
-  }
+  
   .h1-intro{
     font-size: 3rem;
     width: 90%;
