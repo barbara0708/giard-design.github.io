@@ -379,7 +379,9 @@ span{
   overflow: hidden;
   display: block;
 }
-
+#footer-div{
+  display: inline-block;
+}
 i{
   z-index: 9;
   position: absolute;
@@ -387,15 +389,18 @@ i{
 }
 
 
-
-
-
-
 @media all and (max-device-width: 480px){
   #img-intro{
     display: none;
   }
-  
+  #footer-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-list{
+    width: 100%;
+  }
   #sliderLeft{
     width: fit-content;
     padding:  10%;
@@ -438,6 +443,7 @@ i{
     display: flex;
     margin: auto;
     text-align: center;
+    margin-top: 1rem;
     justify-content: center;
     padding: 0.7rem;
     position: absolute;
@@ -554,6 +560,7 @@ i{
     text-align: center;
     justify-content: center;
     padding: 0.7rem;
+    margin-top: 1rem;
     position: absolute;
   }
   .btn-green-w-border{
