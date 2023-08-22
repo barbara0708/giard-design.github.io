@@ -495,7 +495,7 @@ i{
 
 }
 
-@media all and (min-device-width: 480px) and (max-device-width:1500px){
+@media all and (min-device-width: 480px) and (max-device-width:1200px){
   #img-intro{
     display: none;
   }
