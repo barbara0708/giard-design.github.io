@@ -124,7 +124,7 @@ height: 90vh;
 #img-section{
   width: 43rem;
   left: 0;
-  height: 90vh;
+  height: 100vh;
 }
 .slider{
   max-height: 100vh;
@@ -269,7 +269,7 @@ p{
 #sectionRight{
   right: 0;
   float: right;
-  height: 100%;
+  height: 100vh;
   background-color: var(--dark-green);
   width: calc(100vw - 43rem);
   padding-left: 6rem;
