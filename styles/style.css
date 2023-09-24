@@ -213,7 +213,6 @@ p{
 
 
 .card-elem{
-  
   position: relative;
   background-color: white;
   display: flex;
@@ -225,7 +224,7 @@ p{
   align-items: flex-start;
   border-radius: 1.75rem;
   cursor: pointer;
-   transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }i
 .card-title{
   font-family: Montserrat;
@@ -266,6 +265,11 @@ p{
   margin-bottom: 0;
   
 }
+
+.dropdown-item{
+
+
+}
 #sectionRight{
   right: 0;
   float: right;
@@ -293,7 +297,11 @@ p{
   color: var(--grey);
   border-radius: 12.5rem;
   border: 1px solid var(--grey);
+  transition: all 0.3s ease;
 }
+.btn-green-w-border:hover{
+  transform: scale(1.05, 1.05);
+} 
 .h1-section{
 font-size: 4rem;
 font-weight: 500;
